@@ -11,6 +11,8 @@ Basically my project, as a trainee, was to research about ESP32, the LoRa and NR
 
 # Esp32
 
+![alt text](https://www.curtocircuito.com.br/pub/media/catalog/product/cache/8550e88b3e2f562f4a5046962e3b9f42/p/l/placa_doit_esp32_-_esp-wroom-32_-_wifi_bluetooth.jpg)
+
  O ESP32 é um microcontrolador desenvolvido pela empresa eespressif, sendo um dispositivo com alta confiabilidade, podendo se adaptar facilmente a condições adversa, tendo uma margem de operação de -40°C à 125°C. Desenvolvido principalmente para dispositivos móveis e apliações de IOT (Internet Of Things) o ESP32 tem um baixissimo consumo de energia e diversos modos de operação.
  
  
