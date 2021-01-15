@@ -23,6 +23,9 @@ Basically my project, as a trainee, was to research about ESP32, the LoRa and NR
  
 # Rádio LoRa
 
+![alt text](https://uploads.filipeflop.com/2019/02/6WL84-5.jpg)
+
+
 A tecnologia LoRa é uma tecnologia que visa permitir comunicações a longas distâncias com o mínimo de consumo de energia, ideal para aplicações utilizando o ESP32, que também 
 visa o mínimo consumo de energia. Basicamente se baseia em uma rede com topolia estrela e utiliza gateways específicos para enviar e receber dados.
 
@@ -35,6 +38,9 @@ Sistemas de comunicação LoRa utilizam o protocolo LoRaWAN, que inplementa deta
 
 # Rádio NRF24L01
 
+![alt text](https://5.imimg.com/data5/LN/GP/YG/SELLER-27298097/nrf24l01-module-with-antenna-500x500.jpg)
+
+
  Diferente do rádio LoRa, desenvolvido para aplicações que devem ter grande alcance, os módulos de rádio NRF24L01 possuem um alcance muitoo reduzido e operam com tecnologias diferentes. É pela Nordic e pode ser utilizado para operações que necessitam de comunicação entra dispositivos como ESP32 e Arduino. Seu alcance pode chegar a 50 metros em ambientes rurais (Algumas fontes afirmam que módulos mais recentes e com mais tecnologia embarcada podem atingir 100m).
 
 
@@ -46,12 +52,18 @@ Sistemas de comunicação LoRa utilizam o protocolo LoRaWAN, que inplementa deta
  
 # Módulo Cartão SD
 
+![alt text](https://uploads.filipeflop.com/2015/07/Modulo_Cartao_SD.jpg)
+
+
  O módulo de cartão SD é um módulo que permite fazer a conexâo entre um cartão SD e um microcontrolador, sendo o ESP32 ou Arduino. O módulo aceita cartões formatados em FAT16 ou FAT32 e são uma ótima opção para salvar dados obtidos durante a operação do microcontrolador. Em geral utilizam comunicação por meio da interface SPI utilizando os pinos MOSI, SCK, MISO E CS.
 
 
  O módulo opera com tensões de 3.3V, dessa maneira, em geral é necessário implementar divisores de tensão para fornecer a tensão ideal de funcionamento para o módulo. Os módulos geralmente se conectam ao microcontroladores por meio de diversas bibliotecas que variam de dispositivo para dispositivo e tem seus dados gravados, normalmente, em formato txt.
 
 # Acelerômetro MPU9250
+
+![alt text](https://cdn.awsli.com.br/1000x1000/945/945993/produto/36996713/d4657819ae.jpg)
+
 
  Apesar de ser chamado apenas de acelerômetro, o módulo MPU9250 é muito mais do que apenas isso, ele é um dispositivo integrado por um acelerômetro de três eixos, um giroscópio de 3 eixos , um magnetômetro de 3 eixos e um sensor de pressão BMP80 em algumas variações de mercado do dispositivo. Dessa maneira o módulo se classifica como um dispositivo Motion Tracking de 9 eixos.
 	
