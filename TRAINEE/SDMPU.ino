@@ -11,13 +11,13 @@ MPU9250_asukiaaa mySensor;
 
 void setup(){
   Serial.begin(115200);
-  Serial.println("Inicializing SD...");
+  Serial.println("Iniciando SD...");
   if (!SD.begin()) {
     Serial.println("Erro, verifique se o cartão está inserido, reiniciando o sistema...");
     delay(5000);
     ESP.restart();
   }
-  Serial.println("success.");
+  Serial.println("Conexão estabelecida.");
   #ifdef ESP32_HAL_I2C_H
   // for esp32
   Wire.begin(SDA_PIN, SCL_PIN); //sda, scl
@@ -35,7 +35,7 @@ void loop() {
   File dataFile = SD.open("MPU.txt", FILE_WRITE);
 
   if (dataFile) {
-    Serial.println("file open!");
+    Serial.println("Arquivo aberto!");
  
       dataFile.print("Acelerometro: ");
       dataFile.print(" | ");
@@ -48,7 +48,7 @@ void loop() {
   }
 
   else {
-    Serial.println("fail to open File");
+    Serial.println("Erro. Arquivo não conseguiu ser aberto");
   }
  
   delay(2000);
