@@ -69,6 +69,22 @@ Sistemas de comunicação LoRa utilizam o protocolo LoRaWAN, que inplementa deta
 	
  
  Possui rápido processamento, grande precisão e baixo consumo de energia, sendo ideal para aplicações que necessitem de rápidas medições e não possam consumir muita energia.
+ 
+# Sistema de telemetria
+
+ Um sistema de telemetria consiste basicamente em uma tecnologia que permite a medição remota de grandezas e a comunicação entre sistemas através de dispositivos sem fio. A telemetria é a base da internet das coisas e dessa maneira é parte fundamental de qualquer sistema que se baseie em sensoriamento. 
+
+
+ Sabendo disso, podemos desenvolver o sistema de telemetria requisitado em duas partes separadas, a primeira, localizada no foguete, será responsável por coletar dados utilizando-se de sensores e transmitir esses dados por meio do rádio LoRa, também é necessário que esse sistema armazene os dados coletados em um cartão de memória ou outro dispositivo de memória consistente.
+
+
+ A segunda parte se trata do sistema localizado em solo, ele será responsável por receber os sinais de rádio emitido pelo sistema em voo, e disponibilizar gráficos produzidos com os dados de voo em um servidor web, disponibilizado pelo próprio microcontrolador, possibilitando que os gráficos sejam visualizados em diversos dispositivos ao mesmo tempo.
+
+
+Sendo assim, os materiais necessários para o sistema inteiro seriam dois microcontroladores ESP32 com rádio LoRa, dois módulo de cartão SD, dois cartões SD, sensores ( podem variar de acordo com as informações desejadas , logo o espectro de preço pode variar muito) e os dispositivos que irão acessar o servidor WEB hospedado pelo microcontrolador. 
+ 
+ 
+  O código do sistema se baseia nos códigos anteriormente desenvolvidos responsáveis por coletar dados dos sensores, armazenar dados no módulo SD, transmissão e recepção por meio do protocolo LoRaWAN e o código responsável por hospedar um servidor WEB localmente.
 
 
 
