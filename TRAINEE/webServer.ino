@@ -2,7 +2,7 @@
 //Informações da rede WIFI
 const char* rede = "3b5ef6";
 const char* senha = "265284045";
-11
+
 //Defini porta a ser acessada
 WiFiServer server(3000);
 String header;
@@ -48,7 +48,7 @@ void loop(){
  client.println("Connection: close");
  client.println();
  
-12
+
  client.println("<!DOCTYPE html><html>");
  client.println("<head></head>");
  client.println("<body><h1>ESP32 Web Server</h1>");
